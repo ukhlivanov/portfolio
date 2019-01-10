@@ -23,7 +23,7 @@ p {
 #icon {
   /* display: inline-block; */
   border-radius: 5%;
-  width: 40%;
+  width: 50%;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,9 +353,59 @@ footer p {
 
 .main-content::-webkit-scrollbar-thumb {
   background-color: #063B67;
+
+}
+
+@media all and (max-width: 1500px) {
+  #icon {
+    /* display: inline-block; */
+    border-radius: 5%;
+    width: 60%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+}
+
+
+@media all and (max-width: 1320px) {
+  #icon {
+    /* display: inline-block; */
+    border-radius: 5%;
+    width: 40%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+}
+
+@media all and (max-width: 850px) {
+  #icon {
+    /* display: inline-block; */
+    border-radius: 5%;
+    width: 75%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
 }
 
 @media all and (max-width: 800px) {
+  #icon {
+    /* display: inline-block; */
+    border-radius: 5%;
+    width: 70%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
   header {
     display: none;
   }
@@ -418,4 +468,24 @@ footer p {
     padding: 1em;
   }
 
+}
+
+@media all and (max-width: 550px) {
+  #icon {
+    /* display: inline-block; */
+    border-radius: 5%;
+    width: 85%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+}
+
+
+@media all and (max-width: 400px) {
+  .define{
+    font-size: 18px;
+  }
 }
