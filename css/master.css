@@ -1,6 +1,7 @@
 * {
   text-decoration: none;
   list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 html, body, .wrapper {
@@ -20,16 +21,9 @@ p {
   font-weight: 300;
 }
 
-#icon {
-  /* display: inline-block; */
-  border-radius: 5%;
-  width: 50%;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
+/* h2{
+  font-style: red
+} */
 a {
   color: #01213b;
   font-family: 'Quattrocento', serif;
@@ -163,11 +157,16 @@ footer p {
 .content-wrap {
   display: flex;
   height: 100%;
+
+  font-size: 1.3rem;
+
 }
 
 #define {
   justify-content: center;
+
 }
+
 
 .projects-wrap {
   display: flex;

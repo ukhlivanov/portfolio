@@ -9,12 +9,12 @@ function showDefine() {
   })
 }
 
-function showProjects() {
-  $('.main-content .content-wrap').children().hide();
-  $('.projects-wrap').fadeIn();
-  $('.main-content').addClass("clear-padding");
-  $('.main-content').removeClass("align-center");
-}
+// function showProjects() {
+//   $('.main-content .content-wrap').children().hide();
+//   $('.projects-wrap').fadeIn();
+//   $('.main-content').addClass("clear-padding");
+//   $('.main-content').removeClass("align-center");
+// }
 
 function showAbout() {
   $('.main-content .content-wrap').children().hide();
@@ -25,7 +25,7 @@ function showAbout() {
 
 // creates li for each nav item
 function createNav() {
-  var content = ["Sergey Ukhlivanov", "Projects", "About"];
+  var content = ["Sergey Ukhlivanov", "About"];
   content.forEach(function(i) {
     var liItem = $("<li><a id='" + content.indexOf(i) +
       "' class='nav-link'>" + i + "</a></li>");
