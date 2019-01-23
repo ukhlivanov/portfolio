@@ -110,12 +110,12 @@ footer p {
   -o-transition: font-size 0.3s ease;
   transition: font-size 0.3s ease;
   line-height: 1.4em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   border-bottom: 3px solid #FDFFFC;
 }
 
 .nav-link-open {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .nav-list li {
@@ -278,7 +278,6 @@ footer p {
   color: white;
   background-color: rgba(6, 59, 103, 0.3);
   font-size: 3em;
-  font-family: font-family: 'Lato', sans-serif;
   -webkit-transition: all .3s;
   transition: all .3s;
   position: absolute;

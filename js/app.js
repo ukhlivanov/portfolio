@@ -27,8 +27,7 @@ function showAbout() {
 function createNav() {
   var content = ["Sergey Ukhlivanov", "About"];
   content.forEach(function(i) {
-    var liItem = $("<li><a id='" + content.indexOf(i) +
-      "' class='nav-link'>" + i + "</a></li>");
+    var liItem = $("<li><a id='" + content.indexOf(i) +"' class='nav-link'>" + i + "</a></li>");
     $('.nav-list').append(liItem);
     liItem.click(function() {
       navRouter(liItem);
@@ -51,15 +50,13 @@ function navRouter(i) {
 }
 
 function navAnimation(selection) {
+
   if (selection === '#0') {
     $('#0').addClass('nav-link-open');
-    $('#1, #2').removeClass('nav-link-open');
-  } else if (selection === '#1') {
+    $('#1').removeClass('nav-link-open');
+  } else{
     $('#1').addClass('nav-link-open');
-    $('#0, #2').removeClass('nav-link-open');
-  } else {
-    $('#2').addClass('nav-link-open');
-    $('#0, #1').removeClass('nav-link-open');
+    $('#0').removeClass('nav-link-open');
   }
 }
 
