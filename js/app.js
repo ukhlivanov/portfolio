@@ -9,12 +9,6 @@ function showDefine() {
   })
 }
 
-// function showProjects() {
-//   $('.main-content .content-wrap').children().hide();
-//   $('.projects-wrap').fadeIn();
-//   $('.main-content').addClass("clear-padding");
-//   $('.main-content').removeClass("align-center");
-// }
 
 function showAbout() {
   $('.main-content .content-wrap').children().hide();
