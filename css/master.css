@@ -397,7 +397,7 @@ footer p {
 
 @media all and (max-width: 1320px) {
   .circular--portrait {
-   width: 60%;
+   width: 45%;
   }
   
   .define{
@@ -409,7 +409,7 @@ footer p {
 
 @media all and (max-width: 1100px) {
   .circular--portrait {
-    width: 55%;
+    width: 45%;
     height: 40%;
     margin-top: 0;
     margin-bottom: 0;
@@ -439,7 +439,7 @@ footer p {
 
 @media all and (max-width: 1000px) {
   .circular--portrait {
-    width: 65%;
+    width: 55%;
     height: 40%;
     margin-top: 0;
     margin-bottom: 0;
@@ -468,7 +468,7 @@ footer p {
 
 @media all and (max-width: 850px) {
   .circular--portrait {
-    width: 65%;
+    width: 45%;
     height: 37%;
     margin-top: 0;
     margin-bottom: 0;
@@ -498,7 +498,7 @@ footer p {
 @media all and (max-width: 800px) {
 
   .circular--portrait {
-    width: 60%;
+    width: 50%;
     height: 40%;
     margin-top: 0;
     margin-bottom: 0;
@@ -582,7 +582,7 @@ footer p {
 
 @media all and (max-width: 720px) {
   .circular--portrait {
-    width: 60%;
+    width: 50%;
     height: 40%;
     margin-top: 0;
     margin-bottom: 0;
@@ -703,7 +703,7 @@ footer p {
 @media all and (max-width: 400px) {
 
   .circular--portrait {
-    width: 70%;
+    width: 50%;
     height: 20%;
     margin-top: 0;
     margin-bottom: 0;
