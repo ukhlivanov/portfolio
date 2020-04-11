@@ -170,11 +170,9 @@ footer p {
 }
 
 .content-wrap {
-  display: flex;
+  /* display: flex; */
   height: 100%;
-
   font-size: 1.3rem;
-
 }
 
 #define {
